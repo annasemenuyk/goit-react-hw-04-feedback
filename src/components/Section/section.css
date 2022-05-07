@@ -1,0 +1,16 @@
+.title,
+.section {
+  margin-bottom: 20px;
+}
+
+.section:first-child {
+  margin-top: 20px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

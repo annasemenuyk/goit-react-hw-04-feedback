@@ -1,0 +1,29 @@
+.List {
+  width: 400px;
+  display: flex;
+  border-radius: 4px;
+  text-align: center;
+}
+.Item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: calc(100% / 5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+.Item:not(:last-child) {
+  margin-right: 10px;
+}
+.Text {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #808080;
+}
+.Statistic {
+  font-weight: 700;
+  font-size: 16px;
+  color: #122236;
+}
